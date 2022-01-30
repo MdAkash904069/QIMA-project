@@ -118,7 +118,9 @@ a{
   position: relative;
 }
 
-
+.border-bottom-2{
+  border-bottom: 2px solid #f00 !important;
+}
 
 
 
