@@ -1,0 +1,150 @@
+h1,h2,h3,h4,h5,h6,div,span,body{
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar{
+  color: #fff;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  z-index: 1;
+  transition: .6s;
+
+}
+.sticky-nav{
+  position: sticky;
+  top: 0;
+  transition: 0.8s;
+  z-index: 100;
+}
+.container-fluid-nav{
+   background-image: linear-gradient(to right, #041436 , #435875);
+}
+.nav-link{
+  color: #fff;
+  text-align: center;
+}
+.container-fluid.container-fluid-nav {
+    padding: 0px 50px 0px 50px
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600
+}
+.navbar a:hover{
+  color: #18AF5C
+}
+.list-item a{
+  color: #000;
+  text-decoration: none;
+}
+.our-solution,.industry,.about-us{
+    padding-left: 0px;
+    top: 11px;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px 
+}
+.industry ul li a,.about-us ul li a.our-solution ul li a,.industry h6 a ,.about-us h6 a,.our-solution h6 a{
+  font-size: 14px;
+  padding: 35px;
+
+}
+ul li{
+  list-style: none;
+}
+.industry h6 a,.our-solution h6 a,.about-us h6 a{
+  font-weight: 800 !important;
+  color: #5e5e5e !important
+}
+a{
+  text-decoration: none !important;
+}
+.industry ul li a:hover, .our-solution ul li a:hover ,.about-us ul li a:hover{
+  color: #f00;
+  text-decoration: underline;
+  padding: 20px
+}
+.list-item{
+  list-style: none;
+  font-size: 14px
+}
+
+.header-img{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#slider-bg {
+  position: absolute;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 663px;
+  z-index: 10;
+}
+#slider-img {
+  position: absolute;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 79%;
+  max-width: 663px;
+}
+.navbar-li {
+  background: #e3d6d6;
+  color: #f00 !important;
+  border-top: 2px solid #f00;
+}
+
+#carrer:hover{
+  border-bottom: 2px solid #fff !important;
+}
+.homev2HighlightBox:nth-child(1) {
+  margin-left: 2%;
+}
+.homev2HighlightBox {
+  width: 28%;
+  display: inline-block;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .navbar ul li a,.navbar ul a{
+    font-size: 19px !important;
+  }
+  #slider-img {
+    width: 88% !important;
+}
+  .navbar button{
+    font-size: 19px !important;
+  }
+  .header-img{
+    height: 92vh !important;
+  }
+}
