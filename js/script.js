@@ -77,6 +77,29 @@ $(document).ready(function(){
 
 
 
+  // indicator
+  $("#indicator-1").click(function(){
+    $("#indicator_1").trigger('click');
+    $("#indicator-1").addClass('border-bottom-2');
+    $("#indicator-2").removeClass('border-bottom-2');
+    $("#indicator-3").removeClass('border-bottom-2');
+  });
+  $("#indicator-2").click(function(){
+    $("#indicator_2").trigger('click');
+    $("#indicator-1").removeClass('border-bottom-2');
+    $("#indicator-2").addClass('border-bottom-2');
+    $("#indicator-3").removeClass('border-bottom-2');
+  });
+  $("#indicator-3").click(function(){
+    $("#indicator_3").trigger('click');
+    $("#indicator-1").removeClass('border-bottom-2');
+    $("#indicator-2").removeClass('border-bottom-2');
+    $("#indicator-3").addClass('border-bottom-2');
+  });
+
+
+
+
 
 
 
